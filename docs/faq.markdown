@@ -54,3 +54,6 @@ If you get this error while trying to install the CSL model set, it means your u
 Due to macOS security settings, if you receive a "Error reading file..." error when updating xPilot, click the folder icon, choose the X-Plane folder path and try again.
 
 ![Error Reading File](/assets/images/MacOSErrorReadingFile.png)
+
+## Linux: X-Plane install directory textbox not visible in installer
+UI scaling can cause the installer to not show the install directory textbox. The installer can be run in a temrinal with the `--mode text` flag instead.
